@@ -5,43 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="./fonts/fonts.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="header-menu">
-          <ul class="header-list underline">
-            <li class="menu_list-item_active">
-              <a href="#" class="header-btn-active">главная</a>
+      <div class="header__container">
+        <nav class="header__nav">
+          <ul class="header__menu-list header__link-underline">
+            <li class="header__menu-item_active">
+              <a href="#" class="header__link_active">главная</a>
             </li>
-            <li class="circle"><span class="circle">&#9675;</span></li>
-            <li class="menu_list-item">
-              <a href="#" class="header-btn"> посмотреть лоты</a>
+            <li class="header__separator">
+              <span class="header__separator">&#9675;</span>
             </li>
-            <li class="circle"><span class="circle">&#9675;</span></li>
-            <li class="menu_list-item">
-              <a href="#" class="header-btn">об аукционе</a>
+            <li class="header__menu-item">
+              <a href="#" class="header__link"> посмотреть лоты</a>
+            </li>
+            <li class="header__separator">
+              <span class="header__separator">&#9675;</span>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__link">об аукционе</a>
             </li>
           </ul>
         </nav>
-        <a href="index.html" class="head-logotype">
+        <a href="index.html" class="header__logo">
           <img
             src="images/logo-black.svg"
             alt="Логотип сайта"
-            class="image-logotype"
+            class="header__logo-image"
           />
         </a>
-        <div class="header-contacts">
-          <a href="tel:+99995555555" class="contact underline"
+        <div class="header__contacts">
+          <a
+            href="tel:+99995555555"
+            class="header__contact header__link-underline"
             ><p>+9 999 555 5555</p></a
           >
-          <a href="mailto:info@sobaka.ge" class="contact underline">
-            <p class="contact">info@sobaka.ge</p></a
+          <a
+            href="mailto:info@sobaka.ge"
+            class="header__contact header__link-underline"
           >
-          <p class="contact">
+            <p class="header__contact">info@sobaka.ge</p></a
+          >
+          <p class="header__contact">
             наб. Принсенграхт 263- <br />
             265, Амстердам
           </p>
@@ -195,36 +204,38 @@
     </main>
     <footer class="footer">
       <div class="footer_container">
-        <div class="header-contacts bottom">
-          <a href="tel:+99995555555" class="contact underline underline_footer"
+        <div class="header__contacts bottom">
+          <a
+            href="tel:+99995555555"
+            class="header__contact header__link-underline underline_footer"
             ><p>+9 999 555 5555</p></a
           >
           <a
             href="mailto:info@sobaka.ge"
-            class="contact underline underline_footer"
+            class="header__contact header__link-underline underline_footer"
           >
-            <p class="contact">info@sobaka.ge</p></a
+            <p class="header__contact">info@sobaka.ge</p></a
           >
-          <p class="contact">
+          <p class="header__contact">
             наб. Принсенграхт 263-265,<br />
             Амстердам
           </p>
         </div>
         <div class="footer-menu_section">
-          <nav class="header-menu footer-menu">
-            <ul class="header-list underline column_list">
-              <li class="menu_list-item_active">
-                <a href="#" class="header-btn-active"
+          <nav class="header__nav footer-menu">
+            <ul class="header__menu-list header__link-underline column_list">
+              <li class="header__menu-item_active">
+                <a href="#" class="header__link_active"
                   ><p class="menu_item-footer">главная</p></a
                 >
               </li>
-              <li class="menu_list-item">
-                <a href="#" class="header-btn"
+              <li class="header__menu-item">
+                <a href="#" class="header__link"
                   ><p class="menu_item-footer">посмотреть лоты</p></a
                 >
               </li>
-              <li class="menu_list-item">
-                <a href="#" class="header-btn"
+              <li class="header__menu-item">
+                <a href="#" class="header__link"
                   ><p class="menu_item-footer">об аукционе</p></a
                 >
               </li>
