@@ -34,13 +34,15 @@
             />
           </a>
         </div>
-        <address class="header__contacts">
-          <a href="tel:+99995555555" class="item__contact">+9 999 555 5555</a>
-          <a href="mailto:info@sobaka.ge" class="item__contact"
-            >info@sobaka.ge</a
-          >
-          <p>наб. Принсенграхт 263-<span>265, Амстердам</span></p>
-        </address>
+        <div class="contact-wrapper">
+          <address class="contact_info">
+            <a href="tel:+99995555555" class="item__contact">+9 999 555 5555</a>
+            <a href="mailto:info@sobaka.ge" class="item__contact"
+              >info@sobaka.ge</a
+            >
+            <p>наб. Принсенграхт 263-<span>265, Амстердам</span></p>
+          </address>
+        </div>
       </div>
     </header>
 
@@ -64,7 +66,7 @@
       </section>
 
       <section class="lot">
-        <h2>лоты</h2>
+        <h2 class="lot__title">лоты</h2>
         <div class="cover-section">
           <ul class="cards">
             <li class="card-item card_type_film">
@@ -143,11 +145,12 @@
               дорогого антиквариата. Наши лоты вообще не должны были попасть
               <span>ни на один аукцион. Потому что кому нужен дневник</span>
               девочки-подростка или картина, которую может нарисовать даже
-              ребёнок? Кому нужны все эти странные вещи, созданные любителями
-              <span>?</span> Слишком сложные или, наоборот, слишком простые.
-              Опережающие своё время. В пух и прах растерзанные критиками.
-              Непринятые и непонятые. Когда-то они казались просто неудачными.
-              Но, несмотря
+              ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+            </p>
+            <p class="paragraph">
+              Слишком сложные или, наоборот, слишком простые. Опережающие своё
+              время. В пух и прах растерзанные критиками. Непринятые и
+              непонятые. Когда-то они казались просто неудачными. Но, несмотря
               <span>
                 на критику, кажущуюся простоту или сложность, сейчас без этих
                 лотов
@@ -160,10 +163,9 @@
         </div>
       </section>
     </main>
-
     <footer class="footer">
       <div class="footer__section">
-        <address class="bottom">
+        <address class="contact_info">
           <a href="tel:+99995555555" class="underline_footer"
             >+9 999 555 5555</a
           >
@@ -172,19 +174,19 @@
           >
           <p>наб. Принсенграхт 263-265, <span>Амстердам</span></p>
         </address>
-
-        <ul class="menu-list footer__list">
-          <li class="column-menu-active">
-            <a href="#">главная</a>
-          </li>
-          <li class="column-menu">
-            <a href="#">посмотреть лоты</a>
-          </li>
-          <li class="column-menu">
-            <a href="#">об аукционе</a>
-          </li>
-        </ul>
-
+        <nav class="menu_section">
+          <ul class="menu-list footer__list">
+            <li class="column-menu column-menu-active">
+              <a href="#">главная</a>
+            </li>
+            <li class="column-menu">
+              <a href="#">посмотреть лоты</a>
+            </li>
+            <li class="column-menu">
+              <a href="#">об аукционе</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="social-icons">
           <li>
             <a href="#" class="social-icon">
