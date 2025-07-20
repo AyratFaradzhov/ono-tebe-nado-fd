@@ -1,2 +1,2 @@
-[https://github.com/AyratFaradzhov/ono-tebe-nado-fd](https://github.com/AyratFaradzhov/ono-tebe-nado-fd
-
+Репозиторий для проектной работы курса Яндекс Практикума.  
+https://github.com/AyratFaradzhov/slozhno-sosredotochitsya-fd
