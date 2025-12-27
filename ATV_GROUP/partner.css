@@ -1,0 +1,108 @@
+.partners {
+  padding: clamp(20px, 5vw, 40px);
+}
+
+.partners__title-container {
+  display: flex;
+  font-size: var(--base-size);
+  color: var(--text-color);
+}
+
+.partners__title {
+  min-block-size: 154px;
+  font-weight: 300;
+  text-wrap: wrap;
+  inline-size: clamp(302px, -4vw, 200px);
+  font-size: var(--title-hero-size);
+}
+
+.partners__subtitle {
+  inline-size: 1014px;
+  text-align: left;
+  white-space: pre-line;
+  align-self: center;
+  text-wrap: wrap;
+}
+
+.partners__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 40px 80px;
+  padding-block: 72px 40px;
+}
+
+.partners-item {
+}
+
+.partners-border {
+  display: grid;
+  place-items: center;
+  background: white;
+  inline-size: 400px;
+  block-size: 270px;
+  border-radius: 50px;
+}
+
+.partner__image {
+  object-fit: cover;
+  width: 80%;
+  height: auto;
+  aspect-ratio: 315 / 100;
+}
+
+.link-about__cooperation {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-about__cooperation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 322px;
+  height: 61px;
+  color: var(--element-color);
+  border-radius: 32px;
+  background-color: var(--accent-color);
+}
+
+.btn-about__cooperation:hover {
+  position: relative;
+}
+
+.btn-about__cooperation:hover::before {
+  content: "";
+  position: absolute;
+  top: clamp(-35px, -4vw, -45px); /* Резиновое позиционирование */
+  left: clamp(-35px, -4vw, -45px); /* Резиновое позиционирование */
+  width: clamp(70px, 8vw, 94px); /* Резиновый размер */
+  height: clamp(75px, 9vw, 101px); /* Резиновый размер */
+  background-image: url("/images/candy-hover.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.text-about__cooperation {
+}
+
+.pagination__arrow:nth-child(2) {
+  color: var(--element-color);
+}
+
+@media (max-width: 1024px) {
+  .partners__title-container {
+    gap: 100px;
+    background-color: 900px;
+  }
+  .partners__subtitle {
+    inline-size: 800px;
+  }
+  .partners__list {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}

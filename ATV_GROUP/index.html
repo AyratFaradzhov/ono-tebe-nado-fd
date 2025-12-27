@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATV GROUP</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="partner.css" />
+    <link rel="stylesheet" href="font/font.css" />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <div class="header__container container">
+        <a href="index.html">
+          <img class="header__logo" src="assets/images/logo.png" alt="Logo" />
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a
+                href="product.html"
+                class="header__link"
+                data-i18n="products"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a href="about.html" class="header__link" data-i18n="about"></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="collaboration.html"
+                class="header__link"
+                data-i18n="collaboration"
+              ></a>
+            </li>
+            <li class="header__item">
+              <a
+                href="contacts.html"
+                class="header__link"
+                data-i18n="contacts"
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="request-price.html" class="header__button">
+          <span class="price-list" data-i18n="price"></span
+        ></a>
+
+        <button class="header__lang-switch" id="langSwitch" type="button">
+          RU
+        </button>
+      </div>
+    </header>
+    <section class="welcome">
+      <div class="welcome__container container">
+        <h2 data-i18n="logo_text" class="welcome__title"></h2>
+        <p data-i18n="welcome__text" class="welcome__text"></p>
+        <div class="welcome__subtext-container">
+          <p
+            data-i18n="welcome__subtext-first"
+            class="welcome__subtext-first"
+          ></p>
+          <p
+            data-i18n="welcome__subtext-second"
+            class="welcome__subtext-second"
+          ></p>
+        </div>
+      </div>
+      <div class="welcome__about">
+        <img
+          src="images/Subtract.png"
+          alt="Синий грузовой автомобиль с надписью ATV Group едет на розовом фоне. Из кузова вылетают сладости: мармеладные мишки, желейные конфеты, шоколадные батончики и упаковки конфет. Вокруг грузовика видны брызги шоколада и сладостей, создающие ощущение движения и доставки кондитерской продукции."
+          class="welcome__img"
+        />
+        <a href="product.html"
+          ><button class="product__button" type="button">
+            <a
+              href="product.html"
+              data-i18n="products"
+              class="product__button-link"
+            ></a>
+            <img
+              src="images/arrow.svg"
+              alt="стрелка вправо"
+              class="product__button-img"
+            />
+          </button>
+        </a>
+      </div>
+    </section>
+    <section class="card bg-1" id="cardSection">
+      <div class="card__viewport">
+        <ul class="card__candy">
+          <!-- СЛАЙД 1 -->
+          <li class="card__candy-item" data-bg="bg-1">
+            <div class="card__title-container">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item"
+              ></h4>
+            </div>
+
+            <img
+              src="assets\images\Sulifa Moloko 18gr\Sulifa Moloko 18gr.webp"
+              alt="SULIFA TWIN"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="corn_tubes_milk_cream_filling"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="corn_tubes_milk_cream_filling_text"
+              ></p>
+            </div>
+          </li>
+
+          <!-- ЗАГЛУШКИ -->
+          <li class="card__candy-item" data-bg="bg-2">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-panda"
+              ></h4>
+            </div>
+
+            <img
+              src="assets\images\Piramida Choco 20gr\Piramida Choco 20gr.webp"
+              alt="SULIFA TWIN"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Glazed Wafer Sticks 'PYRAMID'"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Glazed Wafer Sticks 'PYRAMID'_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="Glazed Wafer Sticks 'PYRAMID'_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-3">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-damla-lenta"
+              ></h4>
+            </div>
+
+            <img
+              src="assets\images\Damla Assorti 30gr\Damla Assorti 30gr.webp"
+              alt="Damla assorti"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Damla Assorti tubes"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Damla Assorti tubes_filling_text"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-4">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-damla-lenta"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Damla Bears ( Mishki ) 80gr/Damla Bears ( Mishki ) 80gr.webp"
+              alt="Damla Bears"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Chewy Gummy Bears Assortment 80g"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Chewy Gummy Bears Assortment 80g_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="Chewy Gummy Bears Assortment 80g_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-5">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-damla-lenta"
+              ></h4>
+            </div>
+
+            <img
+              src="assets\images\Damla Klubnika 15gr\Damla Klubnika 15gr.webp"
+              alt="Damla Klubnika 15gr"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="card__popular-item-Damla Sour 90gr"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="sour_gummy_straps_15g_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="sour_gummy_straps_15g_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-6">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-damla-lenta"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Damla Sour 90gr/Damla Sour 90gr.webp"
+              alt="Damla Klubnika 15gr"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="card__popular-item-Damla Sour 90gr"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="card__popular-item-Damla Sour 90gr_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="card__popular-item-Damla Sour 90gr_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-7">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-jimmy"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Jimmy belts 75gr/Jimmy belts 75gr.webp"
+              alt="Jimmy belts 75gr"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3 class="card__description-title" data-i18n="Jimmy belts"></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Jimmy belts_filling_text"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-8">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-jimmy"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Jimmy chocolate 20gr/Jimmy chocolate 20gr.webp"
+              alt="Jimmy chocolate"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Jimmy chocolate"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Jimmy chocolate_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="Jimmy belts_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-9">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-jimmy"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Jimmy pasta 52gr/Jimmy pasta 52gr.webp"
+              alt="Crispy delight, creamy heart"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Crispy delight, creamy heart"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Crispy delight, creamy heart_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="Crispy delight, creamy heart_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-10">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-item-jimmy"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Jimmy pencil 75gr/Jimmy pencil 75gr.webp"
+              alt="Jimmy pencil 75gr"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Jimmy pencil 75gr"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Jimmy pencil 75gr_filling_text"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-11">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-kidzi"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Kidzi Klubnika/Kidzi_klubnika.webp"
+              alt="Kidzi_klubnika"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Kidzi_klubnika"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Kidzi_klubnika_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="Kidzi_klubnika_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-12">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-miskets"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Miskets Sour Cubes/Miskets Sour Cubes.webp"
+              alt="Kidzi_klubnika"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Miskets_Sour-cubes"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Miskets_Sour-cubes_filling_text"
+              ></p>
+              <p
+                class="card__description-text"
+                data-i18n="Miskets_Sour-cubes_filling_text-second"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-13">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-dubai-cake"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/BS0001 Dubai cake/BS0001 Dubai cake.webp"
+              alt="Dubai cake"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3 class="card__description-title" data-i18n="Dubai-cake"></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Dubai-cake_filling_text"
+              ></p>
+            </div>
+          </li>
+          <li class="card__candy-item" data-bg="bg-14">
+            <div class="card__title-container hover">
+              <h3 class="card__popular" data-i18n="popular"></h3>
+
+              <h4
+                class="card__popular-title"
+                data-i18n="card__popular-coffee"
+              ></h4>
+            </div>
+
+            <img
+              src="assets/images/Coffee İntense 90gr/Coffee-İntense-90gr (1).webp"
+              alt="Dubai cake"
+              class="card__image"
+            />
+
+            <div class="card__description">
+              <h3
+                class="card__description-title"
+                data-i18n="Coffee-İntense-90gr"
+              ></h3>
+
+              <p
+                class="card__description-text"
+                data-i18n="Coffee-İntense-90gr_filling_text"
+              ></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="pagination">
+        <button class="pagination__arrow" aria-label="Previous">←</button>
+        <span class="pagination__counter">01 / 14</span>
+        <button class="pagination__arrow" aria-label="Next">→</button>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="partners__title-container">
+        <h2 class="partners__title" data-i18n="Partners-title"></h2>
+        <p class="partners__subtitle" data-i18n="partners-subtitle"></p>
+      </div>
+      <ul class="partners__list">
+        <li class="partners-item">
+          <div class="partners-border">
+            <img
+              src="assets/images/partner/lenta.jpg"
+              alt="лента"
+              class="partner__image"
+            />
+          </div>
+        </li>
+        <li class="partners-item">
+          <div class="partners-border">
+            <img
+              src="assets/images/partner/monetka.png"
+              alt="монетка"
+              class="partner__image"
+            />
+          </div>
+        </li>
+        <li class="partners-item">
+          <div class="partners-border">
+            <img
+              src="assets/images/partner/perekrestok.png"
+              alt="перекресток"
+              class="partner__image"
+            />
+          </div>
+        </li>
+        <li class="partners-item">
+          <div class="partners-border">
+            <img
+              src="assets/images/partner/verniy.jpg"
+              alt="верный"
+              class="partner__image"
+            />
+          </div>
+        </li>
+        <li class="partners-item">
+          <div class="partners-border">
+            <img
+              src="assets/images/partner/metro.png"
+              alt="метро"
+              class="partner__image"
+            />
+          </div>
+        </li>
+        <li class="partners-item">
+          <div class="partners-border">
+            <img
+              src="assets/images/partner/detskiy-mir.png"
+              alt="детский мир"
+              class="partner__image"
+            />
+          </div>
+        </li>
+      </ul>
+      <a href="about.html" class="link-about__cooperation">
+        <button class="btn-about__cooperation">
+          <p class="text-about__cooperation" data-i18n="about__cooperation"></p>
+          <span class="pagination__arrow">→</span>
+        </button>
+      </a>
+    </section>
+    <section class="categories">
+      <div class="categories__container">
+        <h3 class="categories__title" data-i18n="categories__title"></h3>
+        <p class="categories__subtitle" data-i18n="categories__subtitle"></p>
+      </div>
+      <div class="categories__section">
+        <ul class="categories__list">
+          <li class="categories__list-item">
+            <div class="categories__list-container">
+              <img
+                src="assets/images/categories/marmelade.webp"
+                alt="мармелады"
+                class="categories__list-image"
+              />
+              <h4 class="categories__list-title" data-i18n="Marmalade"></h4>
+              <p
+                class="categories__list-subtext"
+                data-i18n="Marmalade-subtext"
+              ></p>
+            </div>
+          </li>
+          <li class="categories__list-item">
+            <div class="categories__list-container">
+              <img
+                src="assets/images/categories/candy.webp"
+                alt="конфеты"
+                class="categories__list-image candy-image-crop"
+              />
+              <h4 class="categories__list-title" data-i18n="candy"></h4>
+              <p class="categories__list-subtext" data-i18n="candy-subtext"></p>
+            </div>
+          </li>
+          <li class="categories__list-item">
+            <div class="categories__list-container">
+              <img
+                src="assets/images/categories/caramel.webp"
+                alt="Карамель"
+                class="categories__list-image caramel-image-crop"
+              />
+              <h4 class="categories__list-title" data-i18n="caramel"></h4>
+              <p
+                class="categories__list-subtext"
+                data-i18n="caramel-subtext"
+              ></p>
+            </div>
+          </li>
+          <li class="categories__list-item">
+            <div class="categories__list-container">
+              <img
+                src="assets/images/categories/chocolate-and-choclate-paste.webp"
+                alt="Шоколад Шоколадная паста"
+                class="categories__list-image"
+              />
+              <h4
+                class="categories__list-title"
+                data-i18n="Chocolate_chocolate paste"
+              ></h4>
+              <p
+                class="categories__list-subtext"
+                data-i18n="Chocolate_chocolate paste-subtext"
+              ></p>
+            </div>
+          </li>
+          <li class="categories__list-item">
+            <div class="categories__list-container">
+              <img
+                src="assets/images/categories/cookies.webp"
+                alt="Печенье, кексы,
+вафли и 
+маршмеллоу"
+                class="categories__list-image"
+              />
+              <h4
+                class="categories__list-title"
+                data-i18n="Cookies-marshmallows"
+              ></h4>
+              <p
+                class="categories__list-subtext"
+                data-i18n="Cookies-marshmallows-subtext"
+              ></p>
+            </div>
+          </li>
+          <li class="categories__list-item">
+            <div class="categories__list-container">
+              <img
+                src="assets/images/categories/jelly-desert.webp"
+                alt="желейные десерты"
+                class="categories__list-image"
+              />
+              <h4
+                class="categories__list-title"
+                data-i18n="Jelly desserts"
+              ></h4>
+              <p
+                class="categories__list-subtext"
+                data-i18n="Jelly desserts-subtext"
+              ></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="atv-value">
+      <div class="atv-value__container">
+        <h2 class="atv-value__title" data-i18n="atv-value__title"></h2>
+        <ul class="atv-value__list">
+          <li class="atv-value__item">
+            <div class="atv-value__item-container">
+            <img src="assets/images/benefit/worldwide.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext first-subtext" data-i18n="benefit_worldwide_quality"></p></div>
+          </li>
+                    <li class="atv-value__item">
+            <div class="atv-value__item-container">
+
+            <img src="assets/images/benefit/flexible.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_flexible_packaging"></p></div>
+          </li>
+                    <li class="atv-value__item">
+            <div class="atv-value__item-container">
+
+            <img src="assets/images/benefit/stable.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_stable_demand"></p></div>
+          </li>
+                    <li class="atv-value__item">
+            <div class="atv-value__item-container">
+
+            <img src="assets/images/benefit/shelf.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_shelf_life"></p></div>
+          </li>
+                    <li class="atv-value__item">
+            <div class="atv-value__item-container">
+
+            <img src="assets/images/benefit/promo.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_promo_support"></p></div>
+          </li>
+                    <li class="atv-value__item">
+            <div class="atv-value__item-container">
+
+            <img src="assets/images/benefit/margin.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_high_margin"></p></div>
+          </li>
+          <li class="atv-value__item">
+            <div class="atv-value__item-container">
+            <img src="assets/images/benefit/price.webp" alt="печенька с галочкой" class="atv-value__item-img" />
+            <p class="atv-value__item-subtext" data-i18n="benefit_price_segments"></p></div>
+          </li>
+        </ul>
+    </section>
+    <!-- СКРИПТЫ ТОЛЬКО ТУТ -->
+    <script src="https://unpkg.com/i18next@23.10.0/dist/umd/i18next.min.js"></script>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+@import "../../blocks/header/header.css";
+@import "../../blocks/footer/footer.css";
+@import "../../blocks/hero/hero.css";
+@import "../../blocks/categories/categories.css";
+@import "../../blocks/advantages/advantages.css";
+@import "../../blocks/workflow/workflow.css";
+@import "../../blocks/product-card/product-card.css";
+@import "../../blocks/request-form/request-form.css";
+@import "../../blocks/button/button.css";
+@import "../font/font.css";
+@import "../../blocks/popular_products/popular_products.css";
+@import "../../blocks/benefits/benefits.css";

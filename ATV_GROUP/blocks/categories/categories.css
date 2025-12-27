@@ -1,0 +1,107 @@
+.categories__container {
+  display: flex;
+  padding: 40px;
+  min-block-size: 132px;
+  width: 100vw;
+  background-color: var(--accent-color);
+  border-radius: 16px;
+  align-items: center;
+  color: var(--element-color);
+  gap: 24px;
+}
+
+.categories__title {
+  font-weight: 300;
+  font-size: var(--subtitle-size);
+  text-wrap: nowrap;
+}
+
+.categories__subtitle {
+  font-size: var(--base-size);
+  font-weight: 300;
+  text-wrap: wrap;
+  line-height: 100%;
+  white-space: pre-line;
+}
+
+.section {
+}
+
+.categories__section {
+  background-image: url("/assets/images/categories/background-categories.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.categories__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 61px 111px;
+}
+
+.categories__list-item {
+  min-block-size: 448px;
+}
+
+.categories__list:first-child {
+  padding-top: 60px;
+}
+
+.categories__list-container {
+  display: flex;
+  color: var(--text-color);
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+img.categories__list-image.candy-image-crop {
+  object-position: 80% 85%;
+  justify-content: baseline;
+}
+
+.categories__list-image.caramel-image-crop {
+  object-position: 50% 100%;
+  justify-content: baseline;
+  object-fit: cover;
+  justify-items: end;
+  align-items: end;
+}
+
+.categories__list-image {
+  inline-size: 330px;
+  max-height: 290px;
+  border-radius: 50px;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.categories__list-title {
+  font-size: var(--subtitle-size);
+  font-weight: 300;
+  margin-top: 16px;
+  border-bottom: 1px solid var(--accent-color);
+  width: clamp(200px, 8.04vw + 174.3px, 290px);
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.categories__list-subtext {
+  padding-block-start: 8px;
+  min-block-size: 87px;
+  font-size: var(--base-size);
+  font-weight: 300;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .categories__list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 40px 60px;
+  }
+}

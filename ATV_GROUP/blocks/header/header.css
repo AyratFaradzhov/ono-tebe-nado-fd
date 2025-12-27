@@ -1,0 +1,93 @@
+.header {
+  background-color: #fbf5e5;
+  color: #1445ae;
+  font-family: "Playpen Sans", sans-serif;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 17px 0;
+}
+
+.header__logo {
+  display: block;
+  object-fit: cover;
+  width: 73px;
+  height: 66px;
+}
+
+.header__nav {
+}
+
+.header__list {
+  display: flex;
+  gap: 106px;
+  font-family: var(--base-font);
+}
+
+.header__link {
+  color: var(--text-color);
+  font-size: var(--base-size);
+}
+
+.header__link:hover {
+  color: var(--hover-color);
+}
+
+.header__button {
+  text-align: center;
+  background: var(--accent-color);
+  color: var(--element-color);
+  font-size: var(--base-size);
+  font-family: var(--base-font);
+  font-weight: 500;
+  border-radius: 16px;
+  inline-size: 179px;
+  block-size: 56px;
+}
+
+.price-list {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding-block: 12px;
+}
+
+.header__lang-switch {
+  background: var(--background-color);
+  color: var(--accent-color);
+  border-radius: 50%;
+  border: 1px solid var(--accent-color);
+  inline-size: 54px;
+  block-size: 54px;
+  margin-inline-end: 10px;
+
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* состояние наведения */
+.header__lang-switch:hover {
+  background: var(--accent-color);
+  color: var(--element-color);
+}
+
+/* АКТИВНОЕ СОСТОЯНИЕ (ВЫБРАН ЯЗЫК) */
+.header__lang-switch--active {
+  background: var(--accent-color);
+  color: var(--element-color);
+  border-color: var(--accent-color);
+}
+
+/* чтобы при клике не было дерганья */
+.header__lang-switch:active {
+  transform: scale(0.96);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header__list {
+    gap: 60px;
+  }
+}
